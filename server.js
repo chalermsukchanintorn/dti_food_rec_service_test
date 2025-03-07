@@ -20,3 +20,5 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+//Database free on cloud: https://console.aiven.io/account/a51b3676d565/project/sau-2025/services/mysql-sau/users
